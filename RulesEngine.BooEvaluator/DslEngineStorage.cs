@@ -7,25 +7,17 @@ namespace RulesEngine.BooEvaluator
 {
     public class DslEngineStorage : IRuleDslEngineStorage
     {
-        private Dictionary<string, string> UrlConditions { get; set; }
-
-        public DslEngineStorage()
-        {
-            this.UrlConditions = new Dictionary<string, string>();
-        }
+        private string condition;
 
         public string AddCondition(string condition)
         {
-            if(!UrlConditions.ContainsKey(condition))
-            {
-                UrlConditions.Add(condition, typeof(RuleDslModel).Name);
-            }
+            this.condition = condition;
             return typeof(RuleDslModel).Name;
         }
 
         public Boo.Lang.Compiler.ICompilerInput CreateInput(string url)
         {
-            return new StringInput(url, ConditionFrom(url));
+            return new StringInput(url, condition);
         }
 
         public string GetChecksumForUrls(System.Type dslEngineType, System.Collections.Generic.IEnumerable<string> urls)
@@ -61,16 +53,6 @@ namespace RulesEngine.BooEvaluator
         public void Dispose()
         {
             
-        }
-
-        private string ConditionFrom(string value)
-        {
-            foreach (var pair in UrlConditions)
-            {
-                if (pair.Value == value)
-                    return pair.Key;
-            }
-            return null;
         }
     }
 }

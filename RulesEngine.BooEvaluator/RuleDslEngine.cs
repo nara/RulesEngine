@@ -16,6 +16,7 @@ namespace RulesEngine.BooEvaluator
             CustomizeCompiler(booCompiler, booCompiler.Parameters.Pipeline, new string[]{});
             AddInputs(urls, booCompiler);
             var compilerContext = booCompiler.Run();
+            CompileCompleted(compilerContext);
             return compilerContext;
         }
 
@@ -39,7 +40,7 @@ namespace RulesEngine.BooEvaluator
         {
             if(context.Errors.Count != 0)
             {
-                CreateCompilerException(context);
+                throw CreateCompilerException(context);
             }
             HandleWarnings(context.Warnings);
         }

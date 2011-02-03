@@ -55,14 +55,14 @@ namespace RuleEngineTests
         public void Can_Evaluate_Expression_With_DslActivity()
         {
             var statement = "return (this.Price > 20 or this.Price < 15)";
-            var order = new Order { Price = 10, Message = "Soemthing" };
+            var order = new Order { Price = 10, Message = "Something" };
             EvaluatorAccessPoint.DslConditionEvaluator = evaluator;
             var condition = new DslCondition { DslStatement = statement };
             var rule = new ActivityRule(condition, new DslActivity
                                                        {
                                                            DslStatement = @"
-this.Message = ""dsl"";
-return true;"
+    this.Message = ""dsl"";
+    return true;"
                                                        });
             Assert.IsTrue(rule.Evaluate(order));
             Assert.AreEqual("dsl", order.Message);
