@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RulesEngine.BooEvaluator", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RulesEngine.Persistence", "RulesEngine.Persistence\RulesEngine.Persistence.csproj", "{0B37F672-A5CB-493B-AE58-F1529033D0D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentFlow", "FluentFlow\FluentFlow.csproj", "{1EE600CA-741A-4968-933C-859787B8010C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{0B37F672-A5CB-493B-AE58-F1529033D0D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B37F672-A5CB-493B-AE58-F1529033D0D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B37F672-A5CB-493B-AE58-F1529033D0D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EE600CA-741A-4968-933C-859787B8010C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EE600CA-741A-4968-933C-859787B8010C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EE600CA-741A-4968-933C-859787B8010C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EE600CA-741A-4968-933C-859787B8010C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

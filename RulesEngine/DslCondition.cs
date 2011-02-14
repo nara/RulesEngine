@@ -4,7 +4,7 @@ namespace RulesEngine
     {
         public string DslStatement { get; set; }
 
-        public override bool Evaluate<T>(T context)
+        public override bool Evaluate(object context)
         {
             return EvaluatorAccessPoint.DslConditionEvaluator != null 
                 && EvaluatorAccessPoint.DslConditionEvaluator.Evaluate(DslStatement, context);

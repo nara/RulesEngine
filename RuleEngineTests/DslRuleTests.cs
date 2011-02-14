@@ -19,7 +19,7 @@ namespace RuleEngineTests
         [Test]
         public void Can_Evaluate_Dsl_Expression()
         {
-            var rule = "return (this.Price > 20 and this.Price < 15)";
+            var rule = "return (this.Price > 20 or this.Price < 15)";
             var order = new Order { Price = 10, Message = "Soemthing" };
             var result = evaluator.Evaluate(rule, order);
             Assert.IsTrue(result);
@@ -66,6 +66,19 @@ namespace RuleEngineTests
                                                        });
             Assert.IsTrue(rule.Evaluate(order));
             Assert.AreEqual("dsl", order.Message);
+        }
+
+        [Test]
+        public void Can_Evaluate_Expression_With_FuncCondition()
+        {
+            var order = new Order { Price = 10, Message = "Something" };
+            var condition = new FuncCondition<Order>(o => o.Price < 20);
+            var rule = new ActivityRule(condition, new ActionActivity<Order>(t =>
+            {
+                t.Message = "amp";
+            }));          
+            Assert.IsTrue(rule.Evaluate(order));
+            Assert.AreEqual("amp", order.Message);
         }
     }
 
