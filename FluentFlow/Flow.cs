@@ -2,26 +2,11 @@ using System;
 
 namespace FluentFlow
 {
-    public class Flow<T> : FlowElement<T>
+    public static class Flow
     {
-        public override void Evaluate(T instance)
+        public static FlowNode<T> For<T>()
         {
-            throw new NotImplementedException();
-        }
-
-        public static DecisionNode<T> Decide(Func<T, bool> func)
-        {
-            throw new NotImplementedException();
-        }
-
-        public static FollowingNode<T> Do(Action<FlowNode<T>> action)
-        {
-            throw new NotImplementedException();
-        }
-
-        public static FollowingNode<T> Do(Action<T> action)
-        {
-            throw new NotImplementedException();
+            return new FlowNode<T>();
         }
     }
 }

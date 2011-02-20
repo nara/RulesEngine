@@ -2,25 +2,38 @@ using System;
 
 namespace FluentFlow
 {
-    public class DecisionNode<T> : FlowElement<T>
+    public abstract class DecisionNode<T> : FlowElement<T>
     {
-        public DecisionNode(Func<T> condition)
+        private TrueFalseNode<T> trueNode;
+        private FalseTrueNode<T> falseNode;
+
+        protected DecisionNode(FlowElement<T> master) : base(master)
         {
         }
 
-        public TrueDecisionNode<T> WhenTrue(Action<FlowNode<T>> action)
+        public TrueFalseNode<T> WhenTrue(Action<FlowNode<T>> action)
         {
-            throw new NotImplementedException();
+            trueNode = new TrueFalseNode<T>(action, master);
+            return trueNode;
         }
 
-        public FalseDecisionNode<T> WhenFalse(Action<FlowNode<T>> action)
+        public FalseTrueNode<T> WhenFalse(Action<FlowNode<T>> action)
         {
-            throw new NotImplementedException();
+            falseNode = new FalseTrueNode<T>(action, master);
+            return falseNode;
         }
 
-        public override void Evaluate(T instance)
+        protected abstract bool Condition(T instance);
+
+        internal override void Evaluate(T instance)
         {
-            throw new NotImplementedException();
+            var branchNode = trueNode ?? (falseNode ?? (DicisionBranchNode<T>)null);
+            if (branchNode == null) return;
+
+            if(this.Condition(instance)) 
+                branchNode.Evaluate(instance);
+            else 
+                branchNode.EvaluateOtherResult(instance);
         }
     }
 }

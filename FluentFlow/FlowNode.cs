@@ -5,29 +5,51 @@ namespace FluentFlow
 {
     public class FlowNode<T> : FlowElement<T>
     {
-        public override void Evaluate(T instance)
+        private DecisionNode<T> decisionNode;
+        private ProcessNode<T> actionNode;
+        
+        public FlowNode()
         {
-            throw new NotImplementedException();
+        }
+
+        public FlowNode(FlowElement<T> master): base(master)
+        {
+        }
+
+        internal override void Evaluate(T instance)
+        {
+            if (decisionNode != null) decisionNode.Evaluate(instance);
+            if (actionNode != null) actionNode.Evaluate(instance);
         }
 
         public DecisionNode<T> Decide(Func<T, bool> func)
         {
-            throw new NotImplementedException();
+            decisionNode = new ConditionDecisionNode<T>(new FuncCondition<T>(func), master);
+            return decisionNode;
         }
 
-        public DecisionNode<T> Decide<TRule>() where TRule : AbstractRule
+        public DecisionNode<T> Decide<TCondition>(TCondition condition) where TCondition : AbstractCondition
         {
-            throw new NotImplementedException();
+            decisionNode = new ConditionDecisionNode<T>(condition, master);
+            return decisionNode;
         }
 
-        public FollowingNode<T> Do(Action<FlowNode<T>> action)
+        public ProcessNode<T> Do(Action<FlowNode<T>> action)
         {
-            throw new NotImplementedException();
+            actionNode = new FlowProcessNode<T>(action, master);
+            return actionNode;
         }
 
-        public FollowingNode<T> Do(Action<T> action)
+        public ProcessNode<T> Do(Action<T> action)
         {
-            throw new NotImplementedException();
+            actionNode = new ActivityProcessNode<T>(new ActionActivity<T>(action), master);
+            return actionNode;
+        }
+
+        public ProcessNode<T> Do(AbstractActivity activity)
+        {
+            actionNode = new ActivityProcessNode<T>(activity, master);
+            return actionNode;
         }
     }
 }
