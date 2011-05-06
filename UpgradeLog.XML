@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="RulesEngine">
+</Property><Property Name="Solution File" Value="C:\Nara\Github\Personal\RulesEngine\RulesEngine.sln">
+</Property><Property Name="Date" Value="Friday, May 06, 2011">
+</Property><Property Name="Time" Value="16:18 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="RulesEngine.sln" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine.sln">
+</Event><Event ErrorLevel="0" Project="RulesEngine" Source="RulesEngine\RulesEngine.csproj" Description="Project file successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine\RulesEngine.csproj">
+</Event><Event ErrorLevel="0" Project="RulesEngine" Source="RulesEngine\AbstractRule.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine\AbstractRule.cs">
+</Event><Event ErrorLevel="0" Project="RulesEngine" Source="RulesEngine\AbstractActivity.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine\AbstractActivity.cs">
+</Event><Event ErrorLevel="0" Project="RulesEngine" Source="RulesEngine\ActionActivity.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine\ActionActivity.cs">
+</Event><Event ErrorLevel="0" Project="RulesEngine" Source="RulesEngine\ActivityRule.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine\ActivityRule.cs">
+</Event><Event ErrorLevel="0" Project="RulesEngine" Source="RulesEngine\DslActivity.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine\DslActivity.cs">
+</Event><Event ErrorLevel="0" Project="RulesEngine" Source="RulesEngine\EvaluatorAccessPoint.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine\EvaluatorAccessPoint.cs">
+</Event><Event ErrorLevel="0" Project="RulesEngine" Source="RulesEngine\FuncCondition.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine\FuncCondition.cs">
+</Event><Event ErrorLevel="0" Project="RulesEngine" Source="RulesEngine\IDslConditionEvaluator.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine\IDslConditionEvaluator.cs">
+</Event><Event ErrorLevel="0" Project="RulesEngine" Source="RulesEngine\Operation.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine\Operation.cs">
+</Event><Event ErrorLevel="0" Project="RulesEngine" Source="RulesEngine\OperationRule.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine\OperationRule.cs">
+</Event><Event ErrorLevel="0" Project="RulesEngine" Source="RulesEngine\DslCondition.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine\DslCondition.cs">
+</Event><Event ErrorLevel="0" Project="RulesEngine" Source="RulesEngine\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="RulesEngine" Source="RulesEngine\Rule.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine\Rule.cs">
+</Event><Event ErrorLevel="0" Project="RulesEngine" Source="RulesEngine\AbstractCondition.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine\AbstractCondition.cs">
+</Event><Event ErrorLevel="0" Project="RulesEngine" Source="RulesEngine\RuleSet.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine\RuleSet.cs">
+</Event><Event ErrorLevel="0" Project="RulesEngine" Source="RulesEngine\RulesEngine.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="RulesEngine" Source="RulesEngine\RulesEngine.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="RuleEngineTests" Source="RuleEngineTests\RuleEngineTests.csproj" Description="Project file successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RuleEngineTests\RuleEngineTests.csproj">
+</Event><Event ErrorLevel="0" Project="RuleEngineTests" Source="RuleEngineTests\DslRuleTests.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RuleEngineTests\DslRuleTests.cs">
+</Event><Event ErrorLevel="0" Project="RuleEngineTests" Source="RuleEngineTests\FlowTests.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RuleEngineTests\FlowTests.cs">
+</Event><Event ErrorLevel="0" Project="RuleEngineTests" Source="RuleEngineTests\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RuleEngineTests\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="RuleEngineTests" Source="RuleEngineTests\RubyRuleTests.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RuleEngineTests\RubyRuleTests.cs">
+</Event><Event ErrorLevel="0" Project="RuleEngineTests" Source="RuleEngineTests\RuleTests.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RuleEngineTests\RuleTests.cs">
+</Event><Event ErrorLevel="0" Project="RuleEngineTests" Source="RuleEngineTests\packages.config" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RuleEngineTests\packages.config">
+</Event><Event ErrorLevel="0" Project="RuleEngineTests" Source="RuleEngineTests\RuleEngineTests.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="RuleEngineTests" Source="RuleEngineTests\RuleEngineTests.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="RulesEngine.BooEvaluator" Source="RulesEngine.BooEvaluator\RulesEngine.BooEvaluator.csproj" Description="Project file successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine.BooEvaluator\RulesEngine.BooEvaluator.csproj">
+</Event><Event ErrorLevel="0" Project="RulesEngine.BooEvaluator" Source="RulesEngine.BooEvaluator\BooLangEvaluator.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine.BooEvaluator\BooLangEvaluator.cs">
+</Event><Event ErrorLevel="0" Project="RulesEngine.BooEvaluator" Source="RulesEngine.BooEvaluator\DslEngineStorage.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine.BooEvaluator\DslEngineStorage.cs">
+</Event><Event ErrorLevel="0" Project="RulesEngine.BooEvaluator" Source="RulesEngine.BooEvaluator\EvaluationContext.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine.BooEvaluator\EvaluationContext.cs">
+</Event><Event ErrorLevel="0" Project="RulesEngine.BooEvaluator" Source="RulesEngine.BooEvaluator\DslModel.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine.BooEvaluator\DslModel.cs">
+</Event><Event ErrorLevel="0" Project="RulesEngine.BooEvaluator" Source="RulesEngine.BooEvaluator\IRuleDslEngineStorage.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine.BooEvaluator\IRuleDslEngineStorage.cs">
+</Event><Event ErrorLevel="0" Project="RulesEngine.BooEvaluator" Source="RulesEngine.BooEvaluator\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine.BooEvaluator\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="RulesEngine.BooEvaluator" Source="RulesEngine.BooEvaluator\RuleDslEngine.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine.BooEvaluator\RuleDslEngine.cs">
+</Event><Event ErrorLevel="0" Project="RulesEngine.BooEvaluator" Source="RulesEngine.BooEvaluator\RuleDslModel.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine.BooEvaluator\RuleDslModel.cs">
+</Event><Event ErrorLevel="0" Project="RulesEngine.BooEvaluator" Source="RulesEngine.BooEvaluator\RulesEngine.BooEvaluator.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="RulesEngine.BooEvaluator" Source="RulesEngine.BooEvaluator\RulesEngine.BooEvaluator.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="RulesEngine.Persistence" Source="RulesEngine.Persistence\RulesEngine.Persistence.csproj" Description="Project file successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine.Persistence\RulesEngine.Persistence.csproj">
+</Event><Event ErrorLevel="0" Project="RulesEngine.Persistence" Source="RulesEngine.Persistence\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine.Persistence\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="RulesEngine.Persistence" Source="RulesEngine.Persistence\RulesEngine.Persistence.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="RulesEngine.Persistence" Source="RulesEngine.Persistence\RulesEngine.Persistence.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="FluentFlow" Source="FluentFlow\FluentFlow.csproj" Description="Project file successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\FluentFlow\FluentFlow.csproj">
+</Event><Event ErrorLevel="0" Project="FluentFlow" Source="FluentFlow\ActivityProcessNode.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\FluentFlow\ActivityProcessNode.cs">
+</Event><Event ErrorLevel="0" Project="FluentFlow" Source="FluentFlow\DecisionNode.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\FluentFlow\DecisionNode.cs">
+</Event><Event ErrorLevel="0" Project="FluentFlow" Source="FluentFlow\Flow.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\FluentFlow\Flow.cs">
+</Event><Event ErrorLevel="0" Project="FluentFlow" Source="FluentFlow\FlowElement.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\FluentFlow\FlowElement.cs">
+</Event><Event ErrorLevel="0" Project="FluentFlow" Source="FluentFlow\FlowNode.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\FluentFlow\FlowNode.cs">
+</Event><Event ErrorLevel="0" Project="FluentFlow" Source="FluentFlow\FlowProcessNode.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\FluentFlow\FlowProcessNode.cs">
+</Event><Event ErrorLevel="0" Project="FluentFlow" Source="FluentFlow\ProcessNode.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\FluentFlow\ProcessNode.cs">
+</Event><Event ErrorLevel="0" Project="FluentFlow" Source="FluentFlow\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\FluentFlow\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="FluentFlow" Source="FluentFlow\ConditionDecisionNode.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\FluentFlow\ConditionDecisionNode.cs">
+</Event><Event ErrorLevel="0" Project="FluentFlow" Source="FluentFlow\TrueFalseNode.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\FluentFlow\TrueFalseNode.cs">
+</Event><Event ErrorLevel="0" Project="FluentFlow" Source="FluentFlow\FluentFlow.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="FluentFlow" Source="FluentFlow\FluentFlow.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="RulesEngine.IronRubyEvaluator" Source="RulesEngine.IronRubyEvaluator\RulesEngine.IronRubyEvaluator.csproj" Description="Project file successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine.IronRubyEvaluator\RulesEngine.IronRubyEvaluator.csproj">
+</Event><Event ErrorLevel="0" Project="RulesEngine.IronRubyEvaluator" Source="RulesEngine.IronRubyEvaluator\IronRubyEvaluator.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine.IronRubyEvaluator\IronRubyEvaluator.cs">
+</Event><Event ErrorLevel="0" Project="RulesEngine.IronRubyEvaluator" Source="RulesEngine.IronRubyEvaluator\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine.IronRubyEvaluator\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="RulesEngine.IronRubyEvaluator" Source="RulesEngine.IronRubyEvaluator\RubyEngine.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine.IronRubyEvaluator\RubyEngine.cs">
+</Event><Event ErrorLevel="0" Project="RulesEngine.IronRubyEvaluator" Source="RulesEngine.IronRubyEvaluator\RubyRule.cs" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine.IronRubyEvaluator\RubyRule.cs">
+</Event><Event ErrorLevel="0" Project="RulesEngine.IronRubyEvaluator" Source="RulesEngine.IronRubyEvaluator\packages.config" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine.IronRubyEvaluator\packages.config">
+</Event><Event ErrorLevel="0" Project="RulesEngine.IronRubyEvaluator" Source="RulesEngine.IronRubyEvaluator\RubyClasses\RuleRuleFactory.rb" Description="File successfully backed up as C:\Nara\Github\Personal\RulesEngine\Backup\RulesEngine.IronRubyEvaluator\RubyClasses\RuleRuleFactory.rb">
+</Event><Event ErrorLevel="0" Project="RulesEngine.IronRubyEvaluator" Source="RulesEngine.IronRubyEvaluator\RulesEngine.IronRubyEvaluator.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="RulesEngine.IronRubyEvaluator" Source="RulesEngine.IronRubyEvaluator\RulesEngine.IronRubyEvaluator.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="RulesEngine.sln" Description="The solution file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="" Source="RulesEngine.sln" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="RulesEngine" Source="RulesEngine\RulesEngine.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="RulesEngine.BooEvaluator" Source="RulesEngine.BooEvaluator\RulesEngine.BooEvaluator.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="RulesEngine.Persistence" Source="RulesEngine.Persistence\RulesEngine.Persistence.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="FluentFlow" Source="FluentFlow\FluentFlow.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
